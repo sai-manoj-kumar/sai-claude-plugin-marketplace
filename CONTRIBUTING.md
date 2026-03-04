@@ -51,6 +51,10 @@ One paragraph describing what the plugin does and why it is useful.
 \```bash
 cc --plugin-dir ~/your-plugin-directory
 \```
+
+### Source
+
+Located at `~/your-plugin-directory`. Plugin root: `~/your-plugin-directory/.claude-plugin/`.
 ```
 
 ## Review Criteria
