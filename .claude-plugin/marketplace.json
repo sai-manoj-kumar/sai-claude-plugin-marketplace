@@ -13,7 +13,7 @@
       "author": {
         "name": "Sai"
       },
-      "source": "../git-workflow-plugin",
+      "source": "https://github.com/sai-manoj-kumar/sai-claude-plugin-marketplace/tree/main/plugin-sources/git-workflow",
       "category": "productivity"
     }
   ]
