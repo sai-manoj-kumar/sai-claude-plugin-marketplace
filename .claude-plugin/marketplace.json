@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sai-claude-plugin-marketplace",
+  "description": "Sai's curated registry of Claude Code plugins",
+  "owner": {
+    "name": "Sai"
+  },
+  "plugins": [
+    {
+      "name": "git-workflow",
+      "description": "Slash commands for common git operations with compound-command and heredoc guards",
+      "version": "0.1.0",
+      "author": {
+        "name": "Sai"
+      },
+      "source": "../git-workflow-plugin",
+      "category": "productivity"
+    }
+  ]
+}
