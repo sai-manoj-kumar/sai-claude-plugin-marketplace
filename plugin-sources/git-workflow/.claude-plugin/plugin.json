@@ -1,0 +1,6 @@
+{
+  "name": "git-workflow",
+  "version": "0.1.0",
+  "description": "Slash commands for common git operations with compound-command and heredoc guards",
+  "author": { "name": "Sai" }
+}
