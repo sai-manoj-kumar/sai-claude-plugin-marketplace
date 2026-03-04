@@ -13,7 +13,7 @@
       "author": {
         "name": "Sai"
       },
-      "source": "./plugins/git-workflow",
+      "source": "./.claude-plugin/plugins/git-workflow",
       "category": "productivity"
     }
   ]
