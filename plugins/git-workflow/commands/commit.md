@@ -12,4 +12,10 @@ If the user provided a message in $ARGUMENTS:
 If no message was provided, ask the user for a commit message, then run:
   git commit -m "the message"
 
+Commit message guidelines:
+  - Be clear and concise — describe the change and its purpose.
+  - Use the conventional commits format: <type>(<scope>): <description>
+  - Common types: feat, fix, chore, refactor, test, docs
+  - Example: git commit -m "feat(auth): add email verification flow"
+
 NEVER use heredoc (<<). NEVER combine cd and git in one command.

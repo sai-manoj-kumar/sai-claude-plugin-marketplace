@@ -20,13 +20,12 @@ All other git commands prompt the user for manual approval before running.
 
 ### Commands
 
-| Command | Description |
-|---------|-------------|
-| `/git-workflow:add [file-or-pattern ...]` | Stage files with `git add` |
-| `/git-workflow:commit [message]` | Commit staged changes with `-m` message |
-| `/git-workflow:checkout-branch [branch-name]` | Create and switch to a new branch |
-| `/git-workflow:push [remote] [branch]` | Push current branch to remote |
-| `/git-workflow:status` | Show `git status` and last 5 commits |
+| Command                                   | Description                             |
+| ----------------------------------------- | --------------------------------------- |
+| `/git-workflow:add [file-or-pattern ...]` | Stage files with `git add`              |
+| `/git-workflow:commit [message]`          | Commit staged changes with `-m` message |
+| `/git-workflow:push [remote] [branch]`    | Push current branch to remote           |
+| `/git-workflow:status`                    | Show `git status` and last 5 commits    |
 
 ### Install
 
