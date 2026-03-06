@@ -6,7 +6,7 @@ A curated registry of [Claude Code](https://claude.ai/claude-code) plugins. Each
 
 | Plugin | Version | Description | Commands | Install |
 |--------|---------|-------------|----------|---------|
-| [git-workflow](plugins/git-workflow.md) | 0.3.0 | Slash commands for starting branches, submitting pull requests, and checking CI failures | `start` `submit` `check-gh-workflow` | `cc --plugin-dir ~/git-workflow-plugin` |
+| [git-workflow](plugins/git-workflow.md) | 0.4.0 | Slash commands for starting branches, submitting pull requests, and checking CI failures | `start` `submit` `check-gh-workflow` | `cc --plugin-dir ~/git-workflow-plugin` |
 
 ## Contributing
 
