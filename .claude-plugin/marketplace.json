@@ -9,7 +9,7 @@
     {
       "name": "git-workflow",
       "description": "Slash commands for common git operations with compound-command and heredoc guards",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Sai"
       },
