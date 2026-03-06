@@ -6,7 +6,7 @@ A curated registry of [Claude Code](https://claude.ai/claude-code) plugins. Each
 
 | Plugin | Version | Description | Commands | Install |
 |--------|---------|-------------|----------|---------|
-| [git-workflow](plugins/git-workflow.md) | 0.1.0 | Slash commands for common git operations with compound-command and heredoc guards | `add` `commit` `checkout-branch` `push` `status` | `cc --plugin-dir ~/git-workflow-plugin` |
+| [git-workflow](plugins/git-workflow.md) | 0.2.0 | Slash commands for starting branches and submitting pull requests | `start` `submit` | `cc --plugin-dir ~/git-workflow-plugin` |
 
 ## Contributing
 
