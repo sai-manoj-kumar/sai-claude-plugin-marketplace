@@ -7,4 +7,4 @@ allowed-tools: ["Bash(git:*)"]
 1. Checkout main and pull latest.
 2. Create and checkout the new branch:
    - If $ARGUMENTS provided: `git checkout -b $ARGUMENTS`
-   - Otherwise ask: "Feature or bugfix? Provide a short description." then create `feature/<slug>` or `bugfix/<slug>` (lowercase, hyphens only).
+   - Otherwise infer from current context (recent changes, task, conversation) whether it's a feature or bugfix, derive a short slug, and create `feature/<slug>` or `bugfix/<slug>` (lowercase, hyphens only).
