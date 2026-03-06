@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "sai-claude-plugin-marketplace",
+  "name": "sai-claude-plugins",
   "description": "Sai's curated registry of Claude Code plugins",
   "owner": {
     "name": "Sai"
