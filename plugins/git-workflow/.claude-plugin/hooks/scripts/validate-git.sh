@@ -21,6 +21,4 @@ if echo "$command" | grep -qE '<<\s*\w+'; then
   exit 2
 fi
 
-# All other git commands require manual user approval
-printf '{"hookSpecificOutput":{"permissionDecision":"ask"},"systemMessage":"Git command requires manual approval."}' >&2
 exit 0
