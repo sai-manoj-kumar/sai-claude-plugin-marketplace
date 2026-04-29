@@ -2,7 +2,7 @@
 description: Commit staged changes, push the branch, and open a pull request against main
 argument-hint: [title]
 allowed-tools: ["Bash(git:*)", "Bash(gh:*)", "Bash(pnpm:*)"]
-model: claude-haiku
+model: claude-haiku-4.5
 ---
 
 If on main: tell the user, then follow the start command flow to create a feature/bugfix branch first.
