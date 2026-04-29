@@ -2,7 +2,6 @@
 description: Check recent GitHub Actions workflow failures and propose fixes
 argument-hint: [workflow-name]
 allowed-tools: ["Bash(gh:*)"]
-model: claude-haiku
 ---
 
 1. List recent runs: `gh run list [--workflow "$ARGUMENTS"] --limit 10 --json status,conclusion,name,databaseId,headBranch,createdAt`

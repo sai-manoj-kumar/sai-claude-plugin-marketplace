@@ -2,7 +2,6 @@
 description: Pull latest main and create a new feature or bugfix branch
 argument-hint: [branch-name]
 allowed-tools: ["Bash(git:*)"]
-model: claude-haiku
 ---
 
 1. Checkout main and pull latest.
