@@ -1,6 +1,6 @@
 ---
 name: git-workflow
-version: 0.4.0
+version: 0.8.1
 author: Sai
 description: Slash commands for starting branches and submitting pull requests
 tags: [git, workflow, productivity]
